@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+
+
+/*header start*/
+
+header{
+	/*border: 1px solid blue;*/
+	padding: 15px 0;
+	background-color: #121B2A;
+	box-shadow: 1px 10px 25px 5px;
+
+}
+.wrapper{
+	margin: 0 auto;
+	width: 70%;
+	/*border: 1px solid;*/
+	overflow: hidden;
+
+}
+.content{}
+.logo{
+	/*margin: 1px 0;*/
+	width: 18%;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	/*border: 1px solid;*/
+	width: 65%;
+	float: right;
+	padding: 25px 0;
+	margin: 1px 0;
+	
+}
+.menu ul{
+
+	float: right;
+}
+.menu ul li{
+
+	list-style: none;
+	float: left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 20px;
+	display: inline-block;
+	color: white;
+	transition: 0.5s;
+}
+
+.menu ul li a:hover{
+	color: #0574B4;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+
+
+/*banner start*/
+
+.wrapper2{
+	background-color: #121B2A;
+	width: 70%;
+	margin: 0 auto;
+}
+.b_image{}
+.b_image img{
+	text-align: center;
+	width: 100%;
+	/*float: left;*/
+
+}
+.b_content{
+	text-align: center;
+}
+.b_h1{
+	font-size: 1em;
+	color: white;
+}
+.b_h1 h1{
+
+}
+
+.b_text{
+	color: white;
+}
+.bold{
+	color: #0079BC;
+	font-size: 30px;
+}
+
+
+.button button{
+	background-color: white;
+	border-radius: 3px;
+	border: none;
+	transition: 0.3s;
+	font-size: 2rem;
+	padding: 10px;
+
+}
+
+.button button:hover{
+	background-color: #0079BC;
+	color: white;
+}
+
+.button span{
+	color: #0079BC;
+}
+
+/*banner end*/
